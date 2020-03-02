@@ -1,0 +1,19 @@
+comando para crear la imagen
+
+$ docker build -t <nombre:tag>
+
+comando para crear el container
+
+$ docker run -d -p <puertoHost:puertoContainer> <imagen>
+
+para veriticar que no haya otro container corriendo en el mismo puerto
+
+$ docker ps -a
+
+para eliminar un container
+
+$ docker rm -fv <containerID>
+
+para eliminar una imagen
+
+$docker rmi <imageID>
